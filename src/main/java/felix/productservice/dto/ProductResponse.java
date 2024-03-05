@@ -6,12 +6,13 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
-
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class ProductRequest {
+public class ProductResponse {
+
+    public  String id;
     public String name;
     private  String description;
     private BigDecimal price;
